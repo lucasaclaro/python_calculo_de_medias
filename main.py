@@ -1,0 +1,12 @@
+print('Exercício de cálculo de média aritmética e ponderada\n')
+print('***' * 18)
+valor1 = float(input('\nNota 1: '))
+peso1 = int(input('Peso da 1ª nota: '))
+valor2 = float(input('Nota 2: '))
+peso2 = int(input('Peso da 2ª nota: '))
+print('***' * 18)
+print('')
+media_aritmetica = (valor1 + valor2) / 2
+media_ponderada = ((valor1 * peso1) + (valor2 * peso2)) / (peso1 + peso2)
+print(f'\nA média aritmética entre {valor1} e {valor2} é {media_aritmetica:.2f}.')
+print(f'A média ponderada entre a nota {valor1} com peso {peso1} e nota {valor2} com peso {peso2} é {media_ponderada:.2f}')
